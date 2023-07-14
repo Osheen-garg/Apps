@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Uploader</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+    <div class="hero">
+        <label for="input-file" id="drop-area">
+            <input type="file" accept="image/*" id="input-file" hidden>
+            <div id="img-view">
+                <ion-icon class="img" name="arrow-down-outline"></ion-icon>
+               <p>Drag and drop or click here <br> to upload image</p>
+               <span>upload any images from desktop</span>
+            </div>
+        </label>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
